@@ -2,14 +2,15 @@
 #include <WinSock2.h>
 #include <WS2tcpip.h> // To Use inet_pton
 #include <string>
-#pragma comment(lib, "ws2_32.lib") // Linking Stage
+#pragma comment(lib, "ws2_32") // Linking Stage
 using namespace std;
+
+enum ePort { PORT = 54000 };
 
 int main()
 {   
     // 0. Port And Address Define
     const char* serverIpAddr = "127.0.0.1";
-	enum ePort { PORT = 54000 };
 
     // 1. WinSock 동적 라이브러리 활성화(초기화)
     // Runtime Stage Init

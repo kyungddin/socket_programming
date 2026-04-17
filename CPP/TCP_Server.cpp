@@ -1,9 +1,7 @@
 #include <iostream>
 #include <WinSock2.h>
 #include <WS2tcpip.h>
-
-#pragma comment(lib, "ws2_32_lib")
-
+#pragma comment(lib, "ws2_32")
 using namespace std;
 
 enum ePort {SERVER_PORT = 54000};
