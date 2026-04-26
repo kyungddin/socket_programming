@@ -1,4 +1,4 @@
-// GOAL: UDP Client -> UDP Server -> TCP Client -> TCP Server ¼øÀ¸·Î ±¸ÇöÇÏ±â
+// GOAL: UDP Client -> UDP Server -> TCP Client -> TCP Server ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
 
 #pragma once
 #include <WinSock2.h>
