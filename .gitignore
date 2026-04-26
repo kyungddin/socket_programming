@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -291,3 +292,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 .vs
+=======
+CPP/MySocket/.vs
+>>>>>>> c8f23ff477660a811d19ac4ea6c11f763e82dbe2
